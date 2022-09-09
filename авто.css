@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a {
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 150px;
+  margin-left: 1000px;
+}
+
+.img1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.bmw.ru/content/dam/bmw/marketRU/bmw_ru/publicpools/398710006-a0272509_v2_1680x756.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1653568038173.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img1 .img1__item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 200px;
+  border-bottom: 3px solid white;
+}
+.img1 .img1__item1 h1 {
+  color: black;
+  font-size: 50px;
+}
+.img1 .more {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.img1 .more a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.img1 .more a:hover {
+  background-color: darkblue;
+}
+
+@media (max-width: 768px) {
+  .img1 {
+    width: 100%;
+    height: 200px;
+  }
+  .img1 .img1__item1 {
+    margin-top: 100px;
+  }
+  .img1 .img1__item1 h1 {
+    font-size: 15px;
+  }
+  .img1 .more a {
+    margin-left: -10px;
+    margin-top: -300px;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+  }
+}
+.bmw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bmw .bmwx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bmw .bmwx .bmwx__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bmw .bmwx .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-bottom: 3px solid blue;
+}
+.bmw .bmwx .bmwx1 {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bmw .bmwx .bmwx1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.bmw .bmwx .bmwx1 a:hover {
+  background-color: darkblue;
+}
+
+@media (max-width: 768px) {
+  .bmw .bmwx .title h1 {
+    font-size: 20px;
+  }
+  .bmw .bmwx .bmwx__item .bmwx1 {
+    width: 175px;
+    height: 250px;
+  }
+  .bmw .bmwx .bmwx__item .bmwx1 img {
+    width: 100px;
+    height: 100px;
+  }
+  .bmw .bmwx .bmwx__item .bmwx1 .zakaz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 75px;
+  }
+  .bmw .bmwx .bmwx__item .bmwx1 .zakaz a {
+    font-size: 15px;
+  }
+}
+.bmw2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.bmw2_title {
+  font-size: 30px;
+  border-bottom: 5px solid blue;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bmw2_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bmw2_main_img {
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bmw2_main_img a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.bmw2_main_img a:hover {
+  background-color: darkblue;
+}
+
+@media (max-width: 768px) {
+  .bmw2 .bmw2_title h1 {
+    font-size: 20px;
+  }
+  .bmw2 .bmw2_main .bmw2_main_img {
+    width: 175px;
+    height: 250px;
+  }
+  .bmw2 .bmw2_main .bmw2_main_img img {
+    width: 100px;
+    height: 100px;
+  }
+  .bmw2 .bmw2_main .bmw2_main_img .zakaz2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 75px;
+  }
+  .bmw2 .bmw2_main .bmw2_main_img .zakaz2 a {
+    font-size: 15px;
+  }
+}
+.bmw3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.bmw3_title {
+  font-size: 30px;
+  border-bottom: 5px solid blue;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bmw3_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bmw3_main_img {
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bmw3_main_img a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.bmw3_main_img a:hover {
+  background-color: darkblue;
+}
+
+@media (max-width: 768px) {
+  .bmw3 .bmw3_title h1 {
+    font-size: 20px;
+  }
+  .bmw3 .bmw3_main .bmw3_main_img {
+    width: 175px;
+    height: 250px;
+  }
+  .bmw3 .bmw3_main .bmw3_main_img img {
+    width: 100px;
+    height: 100px;
+  }
+  .bmw3 .bmw3_main .bmw3_main_img .zakaz3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 75px;
+  }
+  .bmw3 .bmw3_main .bmw3_main_img .zakaz3 a {
+    font-size: 15px;
+  }
+}
+.bmw4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.bmw4_title {
+  font-size: 30px;
+  border-bottom: 5px solid blue;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bmw4_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bmw4_main_img {
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bmw4_main_img a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.bmw4_main_img a:hover {
+  background-color: darkblue;
+}
+
+@media (max-width: 768px) {
+  .bmw4 .bmw4_title h1 {
+    font-size: 20px;
+  }
+  .bmw4 .bmw4_main .bmw4_main_img {
+    width: 175px;
+    height: 250px;
+  }
+  .bmw4 .bmw4_main .bmw4_main_img img {
+    width: 100px;
+    height: 100px;
+  }
+  .bmw4 .bmw4_main .bmw4_main_img .zakaz4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 75px;
+  }
+  .bmw4 .bmw4_main .bmw4_main_img .zakaz4 a {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=%D0%B0%D0%B2%D1%82%D0%BE.css.map */
